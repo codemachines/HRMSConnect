@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sms"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25sdp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <EditText
+            android:id="@+id/edtpno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone No."
+            android:inputType="phone"/>
+
+        <ImageView
+            android:id="@+id/ivp"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/edtpno"
+            android:layout_alignRight="@+id/edtpno"
+            android:layout_alignBottom="@+id/edtpno"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:padding="5dp"
+            android:src="@mipmap/phone" />
+    </RelativeLayout>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <EditText
+            android:id="@+id/edtmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Message" />
+
+        <ImageView
+            android:id="@+id/ivm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/edtmsg"
+            android:layout_alignRight="@+id/edtmsg"
+            android:layout_alignBottom="@+id/edtmsg"
+            android:padding="10dp"
+            android:src="@drawable/ic_menu_send" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

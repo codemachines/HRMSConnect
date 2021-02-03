@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToDo Task"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="@dimen/_40sdp" />
+
+        <Button
+            android:id="@+id/btnaddtask"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/login_button"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Add task"
+            android:textAlignment="center"
+            android:textColor="#4FBBC0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/pbtodo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:foregroundGravity="center" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvtodo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp">
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

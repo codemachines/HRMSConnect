@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "379640501292",
+    "firebase_url": "https://hrms-connect.firebaseio.com",
+    "project_id": "hrms-connect",
+    "storage_bucket": "hrms-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379640501292:android:8fd76bc29a77fc83",
+        "android_client_info": {
+          "package_name": "com.example.hrmsconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379640501292-cjtmbtsvg4gfkovhih45mcigel329ghg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hrmsconnect",
+            "certificate_hash": "e3621a26c422e68c2fccaca5d15ff6f87a82574f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjpn-_ISqIdxwerWBFiZBHPtwHGUikBeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379640501292-sq9m1g80sd8m9escmfles2t0tfmjifcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_salary"
+            android:icon="@mipmap/salary"
+            android:title="Salary" />
+        <item
+            android:id="@+id/nav_leave"
+            android:icon="@mipmap/leave"
+            android:title="Leave" />
+
+        <item
+            android:id="@+id/nav_dailystatus"
+            android:icon="@mipmap/dailystatus"
+            android:title="Daily Status" />
+
+        <item
+            android:id="@+id/nav_admintask"
+            android:icon="@mipmap/admintask"
+            android:title="Task" />
+
+        <item
+            android:id="@+id/nav_emptask"
+            android:icon="@mipmap/emptask"
+            android:title="ToDo" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_direction"-->
+            <!--android:icon="@mipmap/direction"-->
+            <!--android:title="Directions" />-->
+
+        <item
+        android:id="@+id/nav_setting"
+        android:icon="@mipmap/settings"
+        android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/logout"
+            android:title="Logout"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_chat"-->
+                <!--android:icon="@mipmap/chats"-->
+                <!--android:title="Chats" />-->
+            <item
+                android:id="@+id/nav_sms"
+                android:icon="@mipmap/sms"
+                android:title="SMS" />
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@mipmap/mail"
+                android:title="Mail" />
+        </menu>
+    </item>
+
+</menu>

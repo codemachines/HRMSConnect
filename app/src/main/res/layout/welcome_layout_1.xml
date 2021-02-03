@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wscreen1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome To HRMS Connect an Application made for the Employee's to Connect to the H.R without any barriers"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/_40sdp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_50sdp"/>
+
+
+
+</LinearLayout>

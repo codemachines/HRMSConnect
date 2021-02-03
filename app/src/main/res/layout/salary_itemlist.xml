@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_20sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:text="Salary Date:"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/tvsd"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Working Days:"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_20sdp"/>
+
+                <TextView
+                    android:id="@+id/tvtwd"
+                    android:layout_weight="50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:text="Days Attended:"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/tvdat"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:text="Basic Salary:"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/tvbs"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:text="Tax:"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/tvtax"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:text="Allowance:"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/tvall"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:text="Total Salary:"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/tvtotsal"
+                    android:layout_weight="50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="fee"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
